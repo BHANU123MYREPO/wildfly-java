@@ -8,11 +8,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- Jakarta EE 9.1 API (includes EJB, JAX-RS, JPA) -->
+        <!-- Jakarta EE 8 API (includes EJB, JAX-RS, JPA) -->
         <dependency>
-            <groupId>jakarta.platform</groupId>
-            <artifactId>jakartaee-api</artifactId>
-            <version>9.1.0</version>
+            <groupId>javax.platform</groupId>
+            <artifactId>javaxee-api</artifactId>
+            <version>8.0.0</version>
             <scope>provided</scope> <!-- Provided by WildFly or Payara -->
         </dependency>
 
@@ -43,8 +43,8 @@
     <!-- Repositories to fetch Jakarta EE dependencies -->
     <repositories>
         <repository>
-            <id>eclipse</id>
-            <url>https://repo.eclipse.org/content/repositories/jakarta-release/</url>
+            <id>maven-central</id>
+            <url>https://repo.maven.apache.org/maven2/</url>
         </repository>
     </repositories>
 
