@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- Jakarta EE 8 API -->
+        <!-- Jakarta EE 8 API (Correct Version) -->
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
