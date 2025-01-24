@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: frontend:latest
+        image: bhanuprasad078/myrepo:31
         ports:
         - containerPort: 8080
 ---
